@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="motos, ventas" />
+    <meta name="description" content="Venta de motos" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <title>Fernandez motos</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">Fernandez motos</div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="nav__link" href="index.php">Inicio</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" href="motos.php">Somos</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" href="contacto.php">Ideas</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" href="contacto.php">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            class="img-slider img-slider--center"
+            src="./images/harley1.jpeg"
+            alt=""
+            width="100%"
+            height="auto"
+          />
+        </div>
+
+        <div class="swiper-slide">
+          <img
+            class="img-slider"
+            src="./images/harley4.jpg"
+            alt=""
+            width="100%"
+            height="auto"
+          />
+        </div>
+      </div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <section class="harley-section">
+      <div class="container">
+        <h2 class="harley-title white h2">
+          Harley Davidson: Una leyenda sobre ruedas
+        </h2>
+
+        <div class="harley-content">
+          <img
+            src="images/harley5.jpeg"
+            alt="Imagen de Harley Davidson"
+            class="harley-image"
+          />
+
+          <div>
+            <p class="harley-description white">
+              Harley-Davidson es, más que una marca, es un estilo de vida.
+              Fundada en 1903, esta compañía estadounidense ha producido algunas
+              de las motocicletas más icónicas del mundo. O sea, es difícil no
+              reconocer el rugido distintivo de un motor Harley o la silueta
+              clásica de sus motos. Cada modelo es una obra de arte, una
+              combinación de historia, cultura y, claro está, adrenalina.
+            </p>
+            <a
+              href="https://www.harley-davidson.com/la/es/index.html"
+              target="_blank"
+              class="harley-link"
+              >Descubre más sobre Harley Davidson</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="suscribe">
+      <div class="suscribe__content">
+        <div class="subscribe__icon-button">
+          <i class="ph-fill ph-bell-ringing icon white suscribe__icon"></i>
+        </div>
+        <div class="subscribe__content-input">
+          <form class="subscribe__form">
+            <input />
+            <button type="submit" class="button">Suscribite</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__box">
+        <h4>Redes</h4>
+        <a
+          class="footer__link"
+          href="https://www.linkedin.com/in/rosmari-fernandez-0b35497a/"
+          target="_blank"
+        >
+          <i class="ph-fill ph-linkedin-logo icon icon--white"></i>
+        </a>
+        <a
+          class="footer__link"
+          href="https://www.facebook.com/rosmari.fernandez"
+          target="_blank"
+        >
+          <i class="ph-fill ph-facebook-logo icon icon--white"></i>
+        </a>
+        <a
+          class="footer__link"
+          href="https://github.com/Rosmariii"
+          target="_blank"
+        >
+          <i class="ph-fill ph-github-logo icon icon--white"></i>
+        </a>
+        <a class="footer__link" href="mailto:rosmarifernandez1231@gmail.com">
+          <i class="ph-fill ph-envelope icon icon--white"></i>
+        </a>
+      </div>
+      <div class="footer__box">
+        <h4>Estudiante</h4>
+        <p>Rosmari Fernandez</p>
+        <p>Tecnicatura Universitaria en Desarrollo de Software</p>
+        <p>UADE</p>
+      </div>
+      <div class="footer__box">
+        <h4>Armonia de color</h4>
+        <p>Monocromatico</p>
+      </div>
+      <div class="footer__box">
+        <h4>Tipografia</h4>
+        <p>Roboto</p>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
