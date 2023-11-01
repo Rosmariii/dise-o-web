@@ -58,7 +58,6 @@ a {
 }
 .swiper {
   width: 100%;
-  /* max-height: 500px; */
 }
 .img-slider {
   object-fit: contain;
@@ -127,13 +126,13 @@ a {
   background-color: #666;
 }
 
-.suscribe {
+.subscribe {
   z-index: 2;
   position: fixed;
-  bottom: 10px;
-  right: 10px;
+  bottom: 50px;
+  right: 20px;
 }
-.suscribe__content {
+.subscribe__content {
   position: relative;
 }
 .subscribe__icon-button {
@@ -143,33 +142,35 @@ a {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
+.subscribe__icon {
+  font-size: 50px;
+}
 .subscribe__content-input {
   position: absolute;
   top: 0;
   right: 35px;
   z-index: -1;
-  display: none;
-  /* display: flex; */
+  display: flex;
   align-items: center;
   height: 70.5px;
   background-color: var(--secondary);
-  padding-left: 10px;
-  padding-right: 40px;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  width: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
 }
-.suscribe:hover .subscribe__content-input {
-  display: flex;
+.subscribe:hover .subscribe__content-input {
+  width: 250px;
+  padding-left: 10px;
+  padding-right: 40px;
 }
 
-.suscribe__icon {
-  font-size: 50px;
-}
 .subscribe__form {
   display: flex;
   column-gap: 5px;
 }
-.button {
+.subscribe__float-button {
   background-color: var(--black);
   color: #fff;
   padding: 10px;
