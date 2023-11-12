@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="motos, ventas" />
+    <meta name="description" content="Venta de motos" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="contacto.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <title>Fernandez motos</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">Fernandez motos</div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__list-item">
+            <a class="nav__link" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" href="motos.php">Somos</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link" href="contacto.php">Ideas</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="nav__link nav__link--active" href="./contacto.html"
+              >Contacto</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26308.01074969792!2d-58.56173916084472!3d-34.49017223224922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb05b42c928cf%3A0x6f5af6fe948ce03e!2sHarley-Davidson%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1699821169391!5m2!1ses-419!2sar"
+        class="map"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="ubicacion de la empresa"
+      ></iframe>
+
+      <div class="contact-section">
+        <form class="contact">
+          <input class="contact__input" type="text" placeholder="Nombre" />
+          <input class="contact__input" type="email" placeholder="Email" />
+          <textarea
+            class="contact__input contact__input--textarea"
+            placeholder="Dejanos tu mensaje"
+            rows="10"
+          ></textarea>
+          <button class="button">Enviar</button>
+        </form>
+
+        <address class="contact-container">
+          <h2 class="h2 white">Contacto:</h2>
+          <div class="contact-info">
+            <i class="ph-fill ph-phone icon icon--white"></i>
+            <p class="white">
+              Teléfono:
+              <a class="white" href="tel:+1234567890">+1 234-567-890</a>
+            </p>
+          </div>
+          <div class="contact-info">
+            <i class="ph-fill ph-envelope icon icon--white"></i>
+            <p class="white">
+              Email:
+              <a class="white" href="mailto:ejemplo@correo.com"
+                >ejemplo@correo.com</a
+              >
+            </p>
+          </div>
+
+          <div class="contact-info">
+            <i class="ph-fill ph-map-pin icon icon--white"></i>
+            <p class="white">Dirección: 123 Calle Principal, Ciudad, País</p>
+          </div>
+
+          <div class="contact-info">
+            <i class="ph-fill ph-printer icon icon--white"></i>
+            <p class="white">Fax: +1 234-567-891</p>
+          </div>
+
+          <div class="contact-info">
+            <i class="ph-fill ph-clock icon icon--white"></i>
+            <p class="white">
+              Horario de atención: <time datetime="P9H">9:00 AM - 6:00 PM</time>
+            </p>
+          </div>
+        </address>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__box">
+        <h4>Redes</h4>
+        <a
+          class="footer__link"
+          href="https://www.linkedin.com/in/rosmari-fernandez-0b35497a/"
+          target="_blank"
+        >
+          <i class="ph-fill ph-linkedin-logo icon icon--white"></i>
+        </a>
+        <a
+          class="footer__link"
+          href="https://www.facebook.com/rosmari.fernandez"
+          target="_blank"
+        >
+          <i class="ph-fill ph-facebook-logo icon icon--white"></i>
+        </a>
+        <a
+          class="footer__link"
+          href="https://github.com/Rosmariii"
+          target="_blank"
+        >
+          <i class="ph-fill ph-github-logo icon icon--white"></i>
+        </a>
+        <a class="footer__link" href="mailto:rosmarifernandez1231@gmail.com">
+          <i class="ph-fill ph-envelope icon icon--white"></i>
+        </a>
+      </div>
+      <div class="footer__box">
+        <h4>Estudiante</h4>
+        <p class="white">Rosmari Fernandez</p>
+        <p class="white">Tecnicatura Universitaria en Desarrollo de Software</p>
+        <p class="white">UADE</p>
+      </div>
+      <div class="footer__box">
+        <h4>Armonia de color</h4>
+        <p class="white">Monocromatico</p>
+      </div>
+      <div class="footer__box">
+        <h4>Tipografia</h4>
+        <p class="white">Roboto</p>
+      </div>
+    </footer>
+  </body>
+</html>

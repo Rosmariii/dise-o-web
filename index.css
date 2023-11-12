@@ -56,6 +56,9 @@ a {
   background-color: var(--secondary);
   color: #fff;
 }
+.nav__link--active {
+  border-bottom: 1px solid white;
+}
 .swiper {
   width: 100%;
 }

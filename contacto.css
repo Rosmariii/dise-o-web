@@ -1,0 +1,66 @@
+.map {
+  width: 100%;
+  height: 30vw;
+  margin-bottom: 50px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.contact__input {
+  width: 100%;
+  height: 50px;
+  margin: 1vw 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+.contact__input--textarea {
+  height: inherit;
+}
+.button {
+  width: 100%;
+  height: 50px;
+  margin: 1vw 0;
+  padding: 0 1vw;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: var(--primary);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--secondary);
+  color: #fff;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.contact-container {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 1024px) {
+  .contact-section {
+    display: flex;
+    justify-content: space-around;
+  }
+  .contact {
+    width: 50%;
+  }
+}
