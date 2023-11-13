@@ -1,0 +1,41 @@
+.ideas-section {
+  background-color: #fff;
+}
+
+.titulo-motos {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.boton-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton-consulta {
+  background-color: #2b6629; /* Color inicial del botón */
+  color: white; /* Color del texto */
+  border: none; /* Elimina el borde por defecto del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  text-align: center; /* Asegura que el texto esté centrado */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; /* Tamaño del texto */
+  margin: 4px 2px;
+  transition-duration: 0.4s; /* Suaviza la transición del cambio de color */
+  cursor: pointer; /* Cambia el cursor a una mano para indicar que es un botón */
+  border-radius: 15px; /* Esquinas redondeadas */
+}
+
+.boton-consulta:hover {
+  background-color: #23991f; /* Color del botón al pasar el cursor */
+}
+
+.boton-consulta-link {
+  text-decoration: none; /* Elimina el subrayado por defecto de los enlaces */
+  color: inherit; /* Hereda el color del texto del elemento padre */
+}

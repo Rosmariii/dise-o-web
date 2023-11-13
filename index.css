@@ -15,9 +15,21 @@ a {
   color: var(--black);
   text-decoration: none;
 }
-
+.p {
+  font-size: 20px;
+}
 .h2 {
   font-size: 30px;
+}
+.big-title {
+  font-size: 80px;
+  color: var(--secondary);
+}
+.w50 {
+  width: 50%;
+}
+.w90 {
+  width: 90%;
 }
 
 .header {
@@ -61,6 +73,9 @@ a {
 }
 .swiper {
   width: 100%;
+}
+.swiper--middle {
+  width: 50%;
 }
 .img-slider {
   object-fit: contain;
